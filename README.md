@@ -2,6 +2,12 @@
 
 An in-house, open-source replacement for **Perplexity Pro** ($20/mo "AI answer engine").
 
+## At a glance
+
+- **Cited answers, zero dependencies:** Python standard library only, DuckDuckGo search, no API key required.
+- **Deep-research loop (`--deep`):** spawns follow-up sub-queries and merges them into one cited report.
+- **Model-agnostic:** extractive mode with no LLM, or synthesis through any OpenAI-compatible endpoint, plus a `--self-check` heartbeat for cron.
+
 ## Why this exists
 Perplexity Pro costs $20/month and gates the good stuff: the Free tier caps you at
 **5 pro searches** and **3 deep-research runs/day**, and the whole thing is
